@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="card__container">
+        <div class="card__image">
+          <img
+            src="./images/product.jpg"
+            alt="classic jacket"
+            width="300px"
+            height="auto"
+          />
+        </div>
+        <form class="card__content">
+          <div class="card__header">
+            <div class="top">
+              <h4 class="title">Classic Utility Jacket</h4>
+              <p class="price">$110.000</p>
+            </div>
+            <p class="status">In stock</p>
+          </div>
+          <div class="card__size-selector">
+            <ul>
+              <li class="active">
+                XS
+              </li>
+              <li>
+                S
+              </li>
+              <li>
+                M
+              </li>
+              <li>
+                XL
+              </li>
+            </ul>
+            <a href="#" class="card__size_guide">Size Guile</a>
+          </div>
+          <div class="card__buttons">
+            <button class="primary">
+              Buy now
+            </button>
+            <button class="secondary">
+              Add to bag
+            </button>
+            <button class="secondary">
+              <svg width="20" height="20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="card__footer">
+            <p>Free shipping on all continental US orders.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
