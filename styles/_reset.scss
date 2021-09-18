@@ -54,5 +54,6 @@ button {
   &.secondary {
     background: none;
     border: 1px solid var(--secondary);
+    color: var(--secondary);
   }
 }
