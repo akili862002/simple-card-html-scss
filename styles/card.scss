@@ -8,11 +8,17 @@
     background: var(--white);
     border-radius: 8px;
     overflow: hidden;
+
+    &--small {
+      // display: flex;
+      grid-template-columns: 1fr;        
+    }
   }
 
   &__image {
     width: 100%;
     position: relative;
+    max-height: 270px;
     
     img {
       display: absolute;
@@ -43,6 +49,7 @@
         margin-top: 10px;
       }
     }
+
 
     .card__size-selector {
       display: flex;
